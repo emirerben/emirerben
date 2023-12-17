@@ -12,9 +12,9 @@ export default function Home() {
         <Link className='hover:translate-y-[-10px] transition-transform' href='/designs'>
           <div className="relative">
             <div className="bg-opacity-20 bg-gray-400 rounded-2xl p-3 -m-2">
-              <div class="max-h-[406px] sm:max-w-[600px] bg-opacity-20 bg-gray-400  rounded-2xl overflow-hidden">
+              <div class="max-h-[350px] sm:max-w-[400px] bg-opacity-20 bg-gray-400  rounded-2xl overflow-hidden">
                 <div class="max-h-[406px]">
-                  <img src="mymind.jpg" alt="Your Image" class="relative m-h-[100%] rounded-2xl" />
+                  <img src="web.jpeg" alt="Your Image" class="relative m-h-[100%] rounded-2xl" />
                 </div>
               </div>
             </div>
@@ -22,24 +22,24 @@ export default function Home() {
           </div>
           <h1 className="relative pt-6">My designs</h1>
         </Link>
-        {/* <div className='hover:translate-y-[-10px] transition-transform'>
+        <Link className='hover:translate-y-[-10px] transition-transform' href='/reflections'>
           <div className="relative">
             <div className="bg-opacity-20 bg-gray-400 rounded-2xl p-3 -m-2">
-              <div class="max-h-[406px] sm:max-w-[600px] bg-opacity-20 bg-gray-400  rounded-2xl overflow-hidden">
+              <div class="max-h-[350px] sm:max-w-[400px] bg-opacity-20 bg-gray-400  rounded-2xl overflow-hidden">
                 <div class="max-h-[406px]">
-                  <img src="mymind.jpg" alt="Your Image" class="relative m-h-[100%] rounded-2xl" />
+                  <img src="reflections.jpeg" alt="Your Image" class="relative m-h-[100%] rounded-2xl" />
                 </div>
               </div>
             </div>
             
           </div>
-          <h1 className="relative pt-4">Music</h1>
-        </div> */}
+          <h1 className="relative pt-4">Personal thoughts and notes </h1>
+        </Link>
         <div className='hover:translate-y-[-10px] transition-transform'>
         <Link className='hover:translate-y-[-10px] transition-transform' href='/web'>
           <div className="relative">
             <div className="bg-opacity-20 bg-gray-400 rounded-2xl p-3 -m-2">
-              <div class="max-h-[406px] sm:max-w-[600px] bg-opacity-20 bg-gray-400  rounded-2xl overflow-hidden">
+              <div class="max-h-[406px] sm:max-w-[400px] bg-opacity-20 bg-gray-400  rounded-2xl overflow-hidden">
                 <div class="max-h-[406px]">
                   <img src="web.jpg" alt="Your Image" class="relative m-h-[100%] rounded-2xl" />
                 </div>
