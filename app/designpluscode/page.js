@@ -27,7 +27,7 @@ export default function Home() {
       <div className="flex flex-col items-center w-full">
         <div className="text-center text-3xl mb-8">Design + Code</div>
         {texts.map((text, index) => (
-          <Link key={index} href={text.link} className="hover:bg-gray-900 md:items-center rounded-md grid grid-cols-1 md:grid-cols-[0.8fr_1.5fr]  py-3 px-3 md:px-9 gap- w-full max-w-xs md:max-w-lg lg:max-w-2xl ">
+          <Link key={index} href={text.link} className="hover:bg-gray-200 dark:hover:bg-gray-900  md:items-center rounded-md grid grid-cols-1 md:grid-cols-[0.8fr_1.5fr]  py-3 px-3 md:px-9 gap- w-full max-w-xs md:max-w-lg lg:max-w-2xl ">
             <div className="w-50 md:text-lg sm:text-sm md:font-semibold sm:font-light">{text.subtitle}</div>
             <div className="md:pl-12 text-sm text-gray-600">{text.description}</div>
           </Link>
