@@ -45,7 +45,7 @@ export default function Home() {
         </div>
 
         <div className="rounded-lg bg-gray-900 p-6">
-          <Image src="/images/adr/adrmain.png" alt="Image description" width={830} height={410} className="rounded-md"/>
+          <Image src="/images/adr/3.png" alt="Image description" width={830} height={410} className="rounded-md"/>
         </div>
         
         <div className="text-justify text-sm sm:text-lg mt-8 text-wrap  max-w-prose sm:py-16 py-8 text-gray-400/100	">
