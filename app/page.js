@@ -32,7 +32,7 @@ export default function Home() {
   ];
 
   return (
-    <main className="flex min-h-screen flex-col items-center p-8  py-48 md:py-56">
+    <main className="scroll-smooth flex min-h-screen flex-col items-center p-8  py-48 md:py-56">
       <Link href={'/'} className="absolute left-10 top-10 font-serif text-2xl">ee</Link>
       <div className="flex flex-col items-center w-full">
         <div className="text-center text-3xl mb-8">Emir Erben</div>
