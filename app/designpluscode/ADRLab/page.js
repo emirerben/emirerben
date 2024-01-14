@@ -4,14 +4,24 @@ import CircularStatus from '@/app/components/CircularStatus';
 import MovingImages from '@/app/components/MovingImages';
 import fs from 'fs';
 import path from 'path';
+import { CloudinaryLoader } from 'next-cloudinary';
 
 
-// const images = ['/images/adr/adrimages.png','/images/adr/adrnews.png', '/images/adr/adrmain.png', '/images/adr/adrpublications.png'];
+const cloudinary = require('cloudinary').v2
+
+// Cloudinary configuration
+cloudinary.config({
+  cloud_name: process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME,
+  api_key: process.env.API_KEY_CLOUDINARY,
+  api_secret: process.env.API_SECRET_CLOUDINARY
+});
 
 const text = 'Adel Design Research Lab';
-const directory = path.join(process.cwd(), 'public/images/adr');
-const filenames = fs.readdirSync(directory);
-const images = filenames.map(name => `/images/adr/${name}`);
+// const directory = path.join(process.cwd(), 'public/images/adr');
+// const filenames = fs.readdirSync(directory);
+// const images = filenames.map(name => cloudinary.url(`/adrimages/${name}`));
+
+
 
 export default function Home() {
   const texts = [
@@ -59,7 +69,7 @@ export default function Home() {
           </ul>
         </div>
         <div>
-          <MovingImages images={images} text={text} />
+          <MovingImages foldername='adrimages' text={text} />
         </div>
 
       </div>
