@@ -7,14 +7,7 @@ import path from 'path';
 import { CloudinaryLoader } from 'next-cloudinary';
 
 
-const cloudinary = require('cloudinary').v2
 
-// Cloudinary configuration
-cloudinary.config({
-  cloud_name: process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME,
-  api_key: process.env.API_KEY_CLOUDINARY,
-  api_secret: process.env.API_SECRET_CLOUDINARY
-});
 
 const text = 'Adel Design Research Lab';
 // const directory = path.join(process.cwd(), 'public/images/adr');
@@ -24,24 +17,7 @@ const text = 'Adel Design Research Lab';
 
 
 export default function Home() {
-  const texts = [
-    {
-      title: 'ADR Lab',
-      main: `One noteworthy project was the creation of the ADR Lab's website (https://adrlabs.vercel.app/) using Next.js, a cutting-edge technology. This experience allowed me to not only turn designs into functional and visually appealing front-end code but also to prioritize user experience and performance optimization.`,
-      link: '/designpluscode/ADRLab'
-    },
-    {
-      subtitle: 'Usersmagic',
-      description: 'Designs for the startup I co-founded',
-      link: '/work'
-    },
-    {
-      subtitle: `ebru's`,
-      description: `The website I built for my mom's pottery`,
-      link: '/sports'
-    },
-    // Add more text objects here
-  ];
+
 
   return (
     <main className="overflow-x-hidden scroll-smooth	flex min-h-screen flex-col items-center p-8 py-32 md:py-56">

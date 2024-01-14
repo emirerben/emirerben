@@ -33,7 +33,7 @@ export default function MovingImages({ foldername, text }) {
         ))}
       </div>
       <div className="w-screen h-48 absolute overflow-clip overlow-hidden static">
-        <div className="overflow-hidden absolute text-white font-semibold text-9xl sm:text-[200px] animate-marquee whitespace-nowrap">
+        <div className="overflow-hidden absolute text-white font-semibold text-7xl sm:text-[200px] animate-marquee whitespace-nowrap">
           {text}
         </div>
       </div>
