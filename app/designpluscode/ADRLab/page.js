@@ -18,7 +18,6 @@ const text = 'Adel Design Research Lab';
 
 export default function Home() {
 
-
   return (
     <main className="overflow-x-hidden scroll-smooth	flex min-h-screen flex-col items-center p-8 py-32 md:py-56">
       <Link href={'/'} className="absolute left-10 top-10 font-serif text-2xl">ee</Link>
@@ -35,7 +34,7 @@ export default function Home() {
         </div>
         
         <div className="text-justify text-sm sm:text-lg mt-8 text-wrap  max-w-prose sm:py-16 py-8 text-gray-400/100	">
-          One noteworthy project was the creation of the ADR Lab's website (https://adrlabs.vercel.app/) using Next.js, a cutting-edge technology. This experience allowed me to not only turn designs into functional and visually appealing front-end code but also to prioritize user experience and performance optimization.
+          One noteworthy project was the creation of the ADR Lab's website <Link className='hover:bg-yellow-100' href='https://adrlabs.vercel.app/'>(https://adrlabs.vercel.app/)</Link> using Next.js, a cutting-edge technology. This experience allowed me to not only turn designs into functional and visually appealing front-end code but also to prioritize user experience and performance optimization.
         </div>
         <div className="max-w-800 text-center text-sm sm:text-lg mt-8 text-wrap sm:p-8 mb-16 text-gray-400/100	">
           <h3 className='text-md text-left text-black dark:text-white sm:text-lg'>Things I've learned <br></br><br></br></h3>

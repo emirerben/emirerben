@@ -30,17 +30,19 @@ export default function Home() {
         </div>
 
         <div className="rounded-lg bg-gray-900 p-6">
-          <Image src="/images/adr/3.png" alt="Image description" width={830} height={410} className="rounded-md"/>
+          <Image src="/images/usersmagic.png" alt="Usersmagic" width={830} height={410} className="rounded-md"/>
         </div>
         
         <div className="text-justify text-sm sm:text-lg mt-8 text-wrap  max-w-prose sm:py-16 py-8 text-gray-400/100	">
-          One noteworthy project was the creation of the ADR Lab's website (https://adrlabs.vercel.app/) using Next.js, a cutting-edge technology. This experience allowed me to not only turn designs into functional and visually appealing front-end code but also to prioritize user experience and performance optimization.
+            Co-founded Usersmagic, a user and market research startup with over <u className='underline-offset-8 decoration-sky-500'>200,000</u> testers and clients such as <u className='underline-offset-8 decoration-orange-500'>Nike</u>, <u className='underline-offset-8 decoration-red-500'>Delivery Hero</u>, and <u className='underline-offset-8 decoration-emerald-500'>Teknosa</u>. Designed websites, deliverables, and surveys from the ground up. Led user and market research, from sampling to questionnaire, for over 25 companies.
         </div>
         <div className="max-w-800 text-center text-sm sm:text-lg mt-8 text-wrap sm:p-8 mb-16 text-gray-400/100	">
           <h3 className='text-md text-left text-black dark:text-white sm:text-lg'>Things I've learned <br></br><br></br></h3>
           <ul className='list-disc text-left ml-3 sm:ml-4 gap-5 flex flex-col max-w-prose'>
-            <li>Working in a project with various stakeholders coming from a different background, architecture in this case, requires documentation and effort to get everyone on the same page</li>
-            <li>It is important to document everything from the ground up and leave a written playbook for the rest of the team to handle change once I'm out </li>
+            <li>User research is about listening, just like everything in life. The more and better you listen, the more you learn and improve. The Mom Test was an amazing book that helped me improve in doing research and understanding users/people.</li>
+            <li>Momentum is the fuel when building with a team. If you can get the team back on track at hard times, it gives you a higher change of success in the long run. This is because everyone works on a startup or idea when the hype and motivation is there.</li>
+            <li>My leadership type is a servant leader, working to make others' jobs easier, taking the weight from others and pushing my limits. I have high standards for myself, but I expect the same from others, which taught me to pay a lot of attention to this when before working with someone.</li>
+            <li>It is essential to find genuinely good people, people that have high standards, and people that get the job done. I think this is all you need</li>
           </ul>
         </div>
         {/* <div>
