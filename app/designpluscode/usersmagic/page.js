@@ -19,7 +19,7 @@ const text = 'Usersmagic';
 export default function Home() {
 
   return (
-    <main className="overflow-x-hidden scroll-smooth	flex min-h-screen flex-col items-center p-8 py-32 md:py-56">
+    <main className="overflow-x-hidden scroll-smooth	flex min-h-screen flex-col items-center p-8 pt-32 pb-18">
       <Link href={'/'} className="absolute left-10 top-10 font-serif text-2xl">ee</Link>
       <div className="flex flex-col items-center w-full">
         <div className="text-center text-3xl pb-5">Usersmagic</div>
@@ -34,7 +34,7 @@ export default function Home() {
         </div>
         
         <div className="text-justify text-sm sm:text-lg mt-8 text-wrap  max-w-prose sm:py-16 py-8 text-gray-400/100	">
-            Co-founded Usersmagic, a user and market research startup with over <u className='underline-offset-8 decoration-sky-500'>200,000</u> testers and clients such as <u className='underline-offset-8 decoration-orange-500'>Nike</u>, <u className='underline-offset-8 decoration-red-500'>Delivery Hero</u>, and <u className='underline-offset-8 decoration-emerald-500'>Teknosa</u>. Designed websites, deliverables, and surveys from the ground up. Led user and market research, from sampling to questionnaire, for over 25 companies.
+            Co-founded Usersmagic, a user and market research startup with over <u className='underline-offset-4 decoration-sky-500'>200,000</u> testers and clients such as <u className='underline-offset-4 decoration-orange-500'>Nike</u>, <u className='underline-offset-4 decoration-red-500'>Delivery Hero</u>, and <u className='underline-offset-4 decoration-emerald-500'>Teknosa</u>. Designed websites, deliverables, and surveys from the ground up. Led user and market research, from sampling to questionnaire, for over 25 companies.
         </div>
         <div className="max-w-800 text-center text-sm sm:text-lg mt-8 text-wrap sm:p-8 mb-16 text-gray-400/100	">
           <h3 className='text-md text-left text-black dark:text-white sm:text-lg'>Things I've learned <br></br><br></br></h3>

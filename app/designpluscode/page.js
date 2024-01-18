@@ -14,6 +14,16 @@ export default function Home() {
       link: '/designpluscode/usersmagic'
     },
     {
+      subtitle: `Turkey Earthquake Relief Fund`,
+      description: `Donation efforts after the earthquake in Turkey`,
+      link: '/designpluscode/earthquakeinturkey'
+    },
+    {
+      subtitle: `onepint`,
+      description: `To match people with new people over a pint`,
+      link: '/designpluscode/onepint'
+    },
+    {
       subtitle: `ebru's`,
       description: `The website I built for my mom's pottery`,
       link: '/designpluscode/ebrus'
