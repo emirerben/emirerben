@@ -30,7 +30,7 @@ export default function Home() {
         </div>
 
         <div className="rounded-lg bg-gray-900 p-6">
-          <Link href="https://helpturkey.vercel.app/">
+          <Link href="https://helpturkey.vercel.app/" target="_blank">
             <Image src="/images/helpturkey.png" alt="Image description" width={830} height={410} className="rounded-md" />
           </Link>
         </div>
