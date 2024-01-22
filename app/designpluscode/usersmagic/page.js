@@ -30,7 +30,9 @@ export default function Home() {
         </div>
 
         <div className="rounded-lg bg-gray-900 p-6">
-          <Image src="/images/usersmagic.png" alt="Usersmagic" width={830} height={410} className="rounded-md"/>
+          <Link href="https://www.figma.com/file/pH7raJwZ5Y5pUf04yr0IIq/Emir-Erben-Portfolio?type=design&node-id=1-146&mode=design&t=dw7Ef8ks9DiXVvbf-0" target="_blank">
+            <Image src="/images/usersmagic.png" alt="Usersmagic" width={830} height={410} className="rounded-md" />
+          </Link>
         </div>
         
         <div className="text-justify text-sm sm:text-lg mt-8 text-wrap  max-w-prose sm:py-16 py-8 text-gray-400/100	">
